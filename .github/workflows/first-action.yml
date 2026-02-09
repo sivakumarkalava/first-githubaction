@@ -7,7 +7,11 @@ jobs:
     runs-on: windows-latest
     steps:
       - name: Print greeting
-        run: echo "Hello world!"
+        run: |
+            echo "Hello world!"
+            echo "Hello INDIA"
 
       - name: Print goodbye
-        run: echo "done-bye!"
+        run: |
+            echo "done-bye!"
+            echo "Bye INDIA"
